@@ -1,0 +1,16 @@
+[project]
+name = "k8r"
+version = "0.0.0"
+description = "k8s manifest management tool"
+readme = "README.md"
+authors = [
+    {name = "Karl Fredrik Haugland", email = "kfh+k8r@tla.wtf"},
+]
+scripts = {k8r = "k8r.cli:entry"}
+
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[build-system]
+requires = ["flit_core >= 3.4"]
+build-backend = "flit_core.buildapi"
